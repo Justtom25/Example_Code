@@ -1,0 +1,88 @@
+public class Pikachu{
+	//set name
+	name = "Pikachu";
+	//set stats
+	bHP = 4;
+	bAtk = 6;
+	bDef = 4;
+	bSpAtk = 5;
+	bSpDef = 5;
+	bSpd = 9;
+	//set types don't set type2 if there is no second type 
+	type1 = "Electric";
+	type2 = "";
+	//list of possible abilities
+	abilities1 = "Static";
+	abilities2 = "Cute Charm";
+	abilities3 = "Lightning Rod";
+	abilities4 = "Sprint";
+	abilities5 = "Sequence";
+	//two evolutions
+	next = "Raichu";
+	previous = "Pichu";
+	//evolution prerequisites
+	prevReq = 10;
+	nextReq = 20;
+	//height, weight, and weight class
+	height = "1\'4\"";
+	size = "Small";
+	weight = 13.2;
+	WC = 1;
+	//egg groups
+	maleRatio = "50";
+    femaleRatio = "50";
+	egg1 = "Field";
+	egg2 = "Fairy";
+	habitats = {"Forest", "Grassland", "Urban"};
+	//capabilities
+	overland = 7;
+	swim = 2;
+	levitate = 0;
+	sky = 0;
+	burrow = 0;
+	hJump = 2;
+	lJump = 2;
+	power = 2;
+	natureWalk = {"Forest", "Urban"};
+	underdog = true;
+	other = {"Zapper"}
+	//skill ranks
+	athl = 3;
+	acro = 3
+	combat = 2;
+	stealth = 3;
+	percep = 2;
+	focus = 3;
+	//skill bonuses
+	athlBonus = 0;
+	acroBonus = 1
+	combatBonus = 0;
+	stealthBonus = 1;
+	percepBonus = 1;
+	focusBonus = 2;
+	//level up moves
+	moves = {"Charm", "Thunder Shock", "Tail Whip", "Play Nice", "Quick Attack", "Electro Ball",
+	"Thunder Wave", "Feint", "Double Team", "Spark", "Nuzzle", "Discharge", "Slam", "Thunderbolt",
+	"Agility", "Wild Charge", "Light Screen", "Thunder"};
+	//egg moves
+	eggMoves = {"Bestow", "Bide", "Charge", "Disarming Voice", "Double Slap", "Encore", "Endure", 
+	"Fake Out", "Flail", "Lucky Chant", "Present", "Reversal", "Thunder Punch", "Tickle", "Volt Tackle", 
+	"Wish"};
+	//tutor moves
+	tutorMoves = {"Body Slam", "Counter", "Covet", "Defense Curl", "Double-Edge", "Dynamic Punch",
+	"Focus Punch", "Helping Hand", "Hold Hands", "Iron Tail", "Knock Off", "Magnet Rise",
+	"Mega Kick", "Mega Punch", "Mud-Slap", "Rollout", "Seismic Toss", "Shock Wave",
+	"Signal Beam", "Sleep Talk", "Snore", "Swift", "Thunder Punch", "Uproar"};
+	//tm moves
+	TMs = {"Strength", "Toxic", "Hidden Power", "Light Screen", "Protect", "Rain Dance",
+	"Frustration", "Thunderbolt", "Thunder", "Return", "Dig", "Brick Break", "Double Team",
+	"Facade", "Rest", "Attract", "Round", "Echoed Voice", "Fling", "Charge Beam", "Flash",
+	"Volt Switch", "Thunder Wave", "Grass Knot", "Swagger", "Sleep Talk", "Substitute",
+	"Wild Charge", "Rock Smash"};
+	movesLevels{}
+	natureMoves{}
+	//constrctor
+	Pikachu(){
+		super();
+	}
+}

@@ -1,0 +1,55 @@
+public class Pikachu extends Pokemon{
+		name = "Pikachu";
+		bHP = 4;
+		bAtk = 6;
+		bDef = 4;
+		bSpAtk = 5;
+		bSpDef = 5;
+		bSpd = 9;
+		type1 = "Electric";
+		type2 = "";
+		abilities1 = "Static";
+		abilities2 = "Cute Charm";
+		abilities3 = "Lightning Rod";
+		abilities4 = "Sprint";
+		abilities5 = "Sequence";
+		previous = Pichu;
+		prevReq = 10;
+		next = Raichu;
+		nextReq = 20;
+		height = "1\'/4\"";
+		size = "Small";
+		weight = 13.2;
+		WC = 1;
+		maleRatio = 50;
+		femaleRatio = 50;
+		egg1 = "Field";
+		egg2 = "Fairy";
+		habitats = {"Forest", "Grassland", "Urban"};
+		overland = 7;
+		swim = 2;
+		levitate = 0;
+		sky = 0;
+		burrow = 0;
+		lJump = 2;
+		hJump = 2;
+		power = 2;
+		natureWalk = {"Forest", "Urban"};
+		underdog = "true";
+		other = {"Zapper"};
+		athl = 3;
+		acro = 3;
+		combat = 2;
+		stealth = 3;
+		percep = 2;
+		focus = 3;
+		athlBouns = 0;
+		acroBonus = 1;
+		combatBouns = 0;
+		stealthBonus = 1;
+		percepBouns = 1;
+		focusBonus = 2;
+	Pikachu(){
+		super();
+	}
+}
